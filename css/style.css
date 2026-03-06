@@ -9,7 +9,7 @@
 }
 
 body {
-  background: url('../img/bg_pc.png') center center / cover no-repeat fixed;
+  background: url('../img/bg_pc.jpg') center center / cover no-repeat fixed;
   color: #333333;
   font-family: "Open Sans", sans-serif;
   overflow-x: hidden;
@@ -56,8 +56,14 @@ h2 {
   text-transform: uppercase;
 }
 
+#hero {
+  width: 100vw;
+  height: 100vh;
+  cursor: pointer;
+}
+
 @media (max-width: 768px) {
   body {
-    background: url('../img/bg_hp.png') center center / cover no-repeat fixed;
+    background: url('../img/bg_hp.jpg') center center / cover no-repeat fixed;
   }
 }
